@@ -1,0 +1,63 @@
+body {
+    background:url(./Assets/bg.jpg) center/cover;
+    /* VH = 100%de taille de l'écran viewport height */
+    min-height: 100vh;
+    font-family: serif;
+}
+
+h1 {
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   text-align: left;
+   text-decoration: rgb(187, 255, 0);
+   text-decoration-style: initial;
+   color: whitesmoke;
+   padding: 15px;
+}
+
+main {
+  height: 500px;
+  background: rgb(245, 233, 233);
+  width: 90%;
+  /* center une boite */
+  margin: 0 auto;
+  border: 2px solid brown;
+  border-radius: 15px 15px 0 0;
+  padding: 20px;
+  margin-top: 21px;
+}
+nav.menu-nav ul li.bnt {
+list-style-type: none;
+display: inline-block;
+
+}
+nav.menu-nav ul li.bnt a {
+  color: white;
+  background-color: rgb(52, 26, 199);
+  padding: 12px;
+
+}
+ul {
+  text-align: center;
+  font-size: large;
+  letter-spacing: 0.1rem;
+}
+.header{
+  background-color: brown;
+  padding: 12px;
+}
+
+
+
+form{
+  text-align: right;
+  padding: 35px;
+}
+ul:hoover{
+  color: antiquewhite;
+text-decoration: underline;
+}
+.menu li{
+  float: left;
+  padding: 35px;
+}

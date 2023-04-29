@@ -1,0 +1,10 @@
+body{
+    background: url(./img1/bg2.jpg) center/cover no-repeat;
+    min-height: 200px;
+}
+div {
+    background-color: brown ;
+    text-align: center;
+    text-decoration: none;
+    max-width: 0.1rem;
+}
